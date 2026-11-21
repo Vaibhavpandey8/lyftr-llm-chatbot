@@ -41,7 +41,7 @@ class Settings:
     """Application settings loaded strictly from environment variables."""
 
     llm_api_keys: List[str] = field(default_factory=list)
-    llm_model: str = "gemini/gemini-2.0-flash"
+    llm_model: str = "gemini/gemini-3.8-flash"
     llm_models: List[str] = field(default_factory=list)
     database_url: str = "sqlite:///./data/app.db"
     allowed_origins: List[str] = field(
@@ -70,7 +70,7 @@ class Settings:
     @classmethod
     def from_env(cls) -> "Settings":
         keys = _parse_csv(os.getenv("LLM_API_KEYS"))
-        default_model = os.getenv("LLM_MODEL", "gemini/gemini-2.0-flash").strip() or "gemini/gemini-2.0-flash"
+        default_model = os.getenv("LLM_MODEL", "gemini/gemini-3.8-flash").strip() or "gemini/gemini-3.8-flash"
         per_key_models = _parse_csv(os.getenv("LLM_MODELS"))
         database_url = os.getenv("DATABASE_URL", "sqlite:///./data/app.db").strip() or "sqlite:///./data/app.db"
         origins = _parse_csv(os.getenv("ALLOWED_ORIGINS")) or [

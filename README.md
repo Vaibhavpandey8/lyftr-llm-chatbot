@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 # Set environment variables (or create a .env at the repo root)
 export LLM_API_KEYS="your_key_1,your_key_2"
-export LLM_MODEL="gemini/gemini-2.0-flash"
+export LLM_MODEL="gemini/gemini-3.8-flash"
 export DATABASE_URL="sqlite:///./data/app.db"
 export ALLOWED_ORIGINS="http://localhost:3000,http://127.0.0.1:3000"
 export ENABLE_FAILURE_SIMULATION="true"
