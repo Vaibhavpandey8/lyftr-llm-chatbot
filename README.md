@@ -6,12 +6,10 @@ A full-stack resilient AI chatbot built with **React + TypeScript (Vite)**, **Fa
 
 ## 1. Live URLs
 
-> Replace the placeholder URLs below with your deployed links before submitting.
-
-- **Frontend (Live UI):** `https://<your-frontend-url>.vercel.app`
-- **Backend (Live API):** `https://<your-backend-url>.onrender.com`
-- **Health Endpoint:** `https://<your-backend-url>.onrender.com/health`
-- **Demo Video (2–3 min):** `https://<your-demo-video-link>`
+- **Frontend (Live UI):** https://lyftr-llm-chatbot-one.vercel.app
+- **Backend (Live API):** https://lyftr-llm-chatbot-backend.onrender.com
+- **Health Endpoint:** https://lyftr-llm-chatbot-backend.onrender.com/health
+- **GitHub Repository:** https://github.com/Vaibhavpandey8/lyftr-llm-chatbot
 
 ---
 
